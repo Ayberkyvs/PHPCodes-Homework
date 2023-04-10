@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Sora";
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  z-index: 3;
+  position: fixed;
+}
+
+.container {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+}
+.container .col .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-image: url("img/subscribe-bg.png");
+}
+.container .col .banner .banner-text {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.container .col .banner h6 {
+  font-size: 14px !important;
+}
+.container .col .col-6-mg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.container .col .col-6-mg .vizeForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.container .col .col-6-mg .vizeForm div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.container .col .col-6-mg .vizeForm div .notInput {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.container .col .col-6-mg .vizeForm div .notInput::-moz-placeholder {
+  margin-left: 20px;
+}
+.container .col .col-6-mg .vizeForm div .notInput:-ms-input-placeholder {
+  margin-left: 20px;
+}
+.container .col .col-6-mg .vizeForm div .notInput::placeholder {
+  margin-left: 20px;
+}/*# sourceMappingURL=main.css.map */
